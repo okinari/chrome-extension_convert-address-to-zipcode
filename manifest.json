@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2
+	, "name": "Convert Address to Zipcode"
+	, "version": "0.1.1"
+
+	, "default_locale": "ja"
+	, "description": "member only"
+	, "icons": {
+		"16": "img/postal-mark-16x16.png"
+		, "48": "img/postal-mark-48x48.png"
+		, "128": "img/postal-mark-128x128.png"
+	}
+	, "author": "okinari.o"
+
+	, "browser_action": {
+		"default_icon": {
+			"16": "img/postal-mark-16x16.png"
+			, "24": "img/postal-mark-24x24.png"
+			, "32": "img/postal-mark-32x32.png"
+		}
+		, "default_title": "Convert Address to Zipcode"
+		, "default_popup": "html/popup.html"
+	}
+
+	, "content_security_policy":"script-src 'self' https://sample-one.cloudgarage.okinari.net/; object-src 'self'"
+}
